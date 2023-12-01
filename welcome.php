@@ -43,7 +43,6 @@ if (isset($_GET['logout'])) {
         <h3 class="email"><?php echo $row['user_email']; ?></h3>
         <h4><?php echo $row['user_city']; ?></h4>
         <br>
-
         <a class="logout" href="welcome.php?logout=1" id="logout-btn" class="btn btn-danger">Log Out</a>
 
     </div>
