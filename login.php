@@ -1,7 +1,7 @@
 <?php
 session_start();
 include('server/connection.php');
-
+//hai
 if (isset($_SESSION['logged_in'])) {
     header('location: welcome.php');
     exit;
